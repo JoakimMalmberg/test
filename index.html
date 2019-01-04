@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+</head>
+
+<body>
+	<section class="buttons">
+		<button onclick="pickingLetter('a')">A</button>
+		<button onclick="pickingLetter('b')">B</button>
+		<button onclick="pickingLetter('c')">C</button>
+		<button onclick="pickingLetter('d')">D</button>
+		<button onclick="pickingLetter('e')">E</button>
+		<button onclick="pickingLetter('f')">F</button>
+		<button onclick="pickingLetter('g')">G</button>
+		<button onclick="pickingLetter('h')">H</button>
+		<button onclick="pickingLetter('i')">I</button>
+		<button onclick="pickingLetter('j')">J</button>
+		<button onclick="pickingLetter('k')">K</button>
+		<button onclick="pickingLetter('l')">L</button>
+		<button onclick="pickingLetter('m')">M</button>
+		<button onclick="pickingLetter('n')">N</button>
+		<button onclick="pickingLetter('o')">O</button>
+		<button onclick="pickingLetter('p')">P</button>
+		<button onclick="pickingLetter('q')">Q</button>
+		<button onclick="pickingLetter('r')">R</button>
+		<button onclick="pickingLetter('s')">S</button>
+		<button onclick="pickingLetter('t')">T</button>
+		<button onclick="pickingLetter('u')">U</button>
+		<button onclick="pickingLetter('v')">V</button>
+		<button onclick="pickingLetter('w')">W</button>
+		<button onclick="pickingLetter('x')">X</button>
+		<button onclick="pickingLetter('y')">Y</button>
+		<button onclick="pickingLetter('z')">Z</button>
+		<button onclick="pickingLetter('å')">Å</button>
+		<button onclick="pickingLetter('ä')">Ä</button>
+		<button onclick="pickingLetter('ö')">Ö</button>
+	</section>	
+
+	<section class='images'>
+		<img src="hangman0.png" id="img0" style="display:none" />
+		<img src="hangman1.jpg" id="img1" style="display:none"/>
+		<img src="hangman2.jpg" id="img2" style="display:none"/>
+		<img src="hangman3.jpg" id="img3" style="display:none"/>
+		<img src="hangman4.jpg" id="img4" style="display:none"/>
+		<img src="hangman5.jpg" id="img5" style="display:none"/>
+		<img src="hangman6.jpg" id="img6" style="display:none"/>
+		<img src="hangman7.jpg" id="img7" style="display:none"/>
+		<img src="hangman8.jpg" id="img8" style="display:none"/>
+		<img src="hangman9.jpg" id="img9" style="display:none"/>
+		<img src="hangman10.jpg" id="img10" style="display:none"/>
+		<img src="hangman11.jpg" id="img11" style="display:none"/>
+		<img src="won.jpg" id="won" style="display:none"/>
+	</section>
+
+	
+	
+<section class='rightWrong'>
+		
+	 	
+	 	<div id="counter"></div>
+		
+		
+	  	<div id="rightGuess"></div>
+
+	  	
+	   	<div id="wrongGuess"></div>
+
+	   	<input type="button" value="Restart" onClick="window.location.reload()">
+
+	</section>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

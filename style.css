@@ -1,0 +1,60 @@
+body{
+	background: darkgrey;
+	color: white;
+	background: #202028;	
+}
+.rightWrong{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+#wrongGuess{
+	font-size: 30px;
+	background-color: black;
+	color:red;
+	height: 40px;
+	width: 300px;
+	margin-bottom: 10px;
+	
+}
+#rightGuess{
+	font-size: 30px;
+	background-color: black;
+	color: green;
+	height: 40px;
+	width: 300px;
+	text-align: center;
+	margin: 50px;
+}
+
+.images{
+	display: flex;
+	justify-content: center;
+
+}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+
+}
+button{
+	height: 50px;
+	width: 40px;
+
+}
+button:focus{
+    background:white;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+}
+
+img{
+	height: 250px;
+}
