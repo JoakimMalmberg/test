@@ -2,7 +2,7 @@
 let secretWord = [];
 
 //En array med en ord.
-let words = ["html", "css", "javascript", "php", "python", "mysql", "wordpress", "jquery", "json", "ajax", "axios", "flexbox", "bootstrap"]
+let words = ["html", "css", "hej", "javascript", "php", "python", "mysql", "wordpress", "jquery", "json", "ajax", "axios", "flexbox", "bootstrap"]
 
 //bokstäver som har gissats som inte finns i secetWord
 let wrongGuess = [];
